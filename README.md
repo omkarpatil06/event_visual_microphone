@@ -8,6 +8,7 @@ Progress list:
 ```event_camera```: Provides input arguments and configurations for the simulator.
 
 The event simulator takes an input frames-based video and outputs a event-frame based video. The following steps are currently used for the conversion:
+
 1. Stores all frames retrieved from cv2 video read object.
 2. Convert frames to luma frames as a measure for intensity.
 3. Find the linear log (lin-log) of the luma frames.
