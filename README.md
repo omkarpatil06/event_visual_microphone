@@ -6,6 +6,7 @@ Progress list:
 ## Event Simulator
 ```event_simulator.py```: Creates a simulator object to process frame based videos to event frames.
 ```event_camera```: Provides input arguments and configurations for the simulator.
+
 The event simulator takes an input frames-based video and outputs a event-frame based video. The following steps are currently used for the conversion:
 1. Stores all frames retrieved from cv2 video read object.
 2. Convert frames to luma frames as a measure for intensity.
@@ -19,8 +20,11 @@ The event simulator takes an input frames-based video and outputs a event-frame 
 
 As an example the video of elephants is converted to it's event frame representation bellow:
 **Original video:**
+
 https://github.com/omkarpatil06/event_visual_microphone/assets/94877472/73c78763-ee7c-452a-b240-0820ba7ee9c2
+
 **Video from simulator**
+
 https://github.com/omkarpatil06/event_visual_microphone/assets/94877472/377e06d4-18ae-46ce-add6-2a6a24c2c0ea
 
 
