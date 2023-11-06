@@ -5,7 +5,7 @@ Progress list:
 
 ## Event Simulator
 ```event_simulator.py```: Creates a simulator object to process frame based videos to event frames.
-```event_camera```: Provides input arguments and configurations for the simulator.
+```event_camera.py```: Provides input arguments and configurations for the simulator.
 
 The event simulator takes an input frames-based video and outputs a event-frame based video. The following steps are currently used for the conversion:
 
