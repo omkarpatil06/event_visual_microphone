@@ -20,6 +20,7 @@ The event simulator takes an input frames-based video and outputs a event-frame 
 9. Use cv2 video write to create an mp4 video from the event frames.
 
 As an example the video of elephants is converted to it's event frame representation bellow:
+
 **Original video:**
 
 https://github.com/omkarpatil06/event_visual_microphone/assets/94877472/73c78763-ee7c-452a-b240-0820ba7ee9c2
